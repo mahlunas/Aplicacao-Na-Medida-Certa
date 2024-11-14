@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 800;
+}
+
+header{
+    background-color: orangered;
+    margin: 0px;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: green;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: orangered; 
+    color: #fff;
+    width: 100%;
+}
+
+  
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+  
+.social-links a:hover {
+    color: black;
+    font-size: 26px;
+}
+
+.sidebar{
+    width: 250px;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    height: 80vh; /* Mantém altura total da viewport */
+    position: -webkit-sticky; /* Compatibilidade com navegadores antigos */
+    position: sticky;
+    top: 0;
+    margin: 0 10px 10px ;
+    border-radius: 12px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
